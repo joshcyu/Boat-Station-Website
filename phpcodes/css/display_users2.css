@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("port.jpg");
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+th{
+  padding: 15px;
+  text-align: center !important;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+  border: none !important;
+  background-color: rgba(255,255,255,0.3) !important;
+}
+td{
+  padding: 15px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
+  border-bottom: solid 2px rgba(255,255,255,0.1);
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.back-button, .slide-in {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: slideInTop 0.5s forwards;
+}
+@keyframes slideInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

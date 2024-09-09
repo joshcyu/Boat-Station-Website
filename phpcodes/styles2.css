@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f5ff; /* Light blue background */
+  color: #333; /* Dark gray text */
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #007bff; /* Blue header text */
+  text-align: center;
+}
+
+form {
+  background-color: #96b9fc; /* Light blue background */
+  padding: 15px; /* Reduced padding */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Soft shadow */
+  max-width: 300px; /* Reduced form width */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px; /* Reduced padding */
+  margin-bottom: 15px; /* Reduced margin */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px; /* Reduced font size */
+}
+
+input[type="submit"] {
+  background-color: #007bff; /* Blue submit button */
+  color: #c9ddfc; /* White text */
+  padding: 8px 16px; /* Reduced padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px; /* Reduced font size */
+}
+
+.notification {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.notification.success {
+  background-color: #28a745; /* Darker green */
+}
